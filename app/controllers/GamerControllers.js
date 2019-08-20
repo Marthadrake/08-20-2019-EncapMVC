@@ -10,6 +10,8 @@ function _draw() {
   let gamerSlapCountElement = document.querySelector("#slap")
   let gamerHealthCountElement = document.querySelector("#health")
   let gamer = _gamerService.Gamer
+
+  // gamerNameElement.textContent = gamer.name()
   gamerSlapCountElement.textContent = gamer.slapCount.toString()
   gamerHealthCountElement.textContent = gamer.healthCount.toString()
 

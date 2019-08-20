@@ -12,11 +12,12 @@ export default class GamerServices {
     return _gamer
   }
 
-  slap() {
+  slap(gamerProp) {
     _gamer.slapCount++
   }
 
-  health() {
+
+  health(gamerProp) {
     _gamer.healthCount++
 
   }

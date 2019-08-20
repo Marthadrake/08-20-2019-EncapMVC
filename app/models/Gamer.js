@@ -5,6 +5,6 @@ export default class Gamer {
     console.log(`${name} created`)
     this.name = name
     this.slapCount = 0
-    this.healthCount = 100
+    this.healthCount = 0
   }
 }
